@@ -48,13 +48,15 @@ export function Footer() {
           <div>
             <h4 className="font-display font-semibold text-lg mb-4">Kontak</h4>
             <ul className="space-y-3">
-              <li className="flex items-center gap-2 text-sm text-primary-foreground/80">
-                <MapPin className="h-4 w-4 text-accent" />
-                <span>Jl. Kopi No. 123, Jakarta</span>
+              <li className="flex items-start gap-2 text-sm text-primary-foreground/80">
+                <MapPin className="h-4 w-4 text-accent mt-0.5 shrink-0" />
+                <span>Jl. Puter, Rawajarit, Menganti, Kesugihan, Cilacap, Jawa Tengah</span>
               </li>
               <li className="flex items-center gap-2 text-sm text-primary-foreground/80">
                 <Phone className="h-4 w-4 text-accent" />
-                <span>+62 812 3456 7890</span>
+                <a href="https://wa.me/6288213407868" className="hover:text-accent transition-colors">
+                  +62 882 1340 7868
+                </a>
               </li>
               <li className="flex items-center gap-2 text-sm text-primary-foreground/80">
                 <Mail className="h-4 w-4 text-accent" />
