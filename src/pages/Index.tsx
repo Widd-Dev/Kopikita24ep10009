@@ -6,6 +6,7 @@ import { useProducts } from "@/hooks/useProducts";
 import { Button } from "@/components/ui/button";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Coffee, MapPin, Clock, ArrowRight, ShoppingBag } from "lucide-react";
+import heroCoffeeShop from "@/assets/hero-coffee-shop.jpg";
 
 export default function Index() {
   const { products, isLoading } = useProducts(4);
@@ -19,7 +20,7 @@ export default function Index() {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1920&q=80')`,
+            backgroundImage: `url('${heroCoffeeShop}')`,
           }}
         >
           <div className="absolute inset-0 bg-gradient-to-b from-foreground/70 via-foreground/60 to-foreground/80" />
