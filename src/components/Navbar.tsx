@@ -8,7 +8,7 @@ import { CartDrawer } from "./CartDrawer";
 const navLinks = [
   { href: "/", label: "Beranda" },
   { href: "/menu", label: "Menu" },
-  { href: "/shop", label: "Toko" },
+  { href: "/shop", label: "Galeri" },
   { href: "/about", label: "Tentang" },
   { href: "/contact", label: "Kontak" },
 ];
